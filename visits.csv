@@ -1,0 +1,748 @@
+patient_id,doctor_id,hospital_id,visit_date,visit_complaint,visit_diagnosis,visit_prescription,admission_type
+1,39,2,01-06-2025,Rapid heartbeat,Pneumonia,Antibiotics,Outpatient
+2,30,2,6/30/2023,Rapid heartbeat,Hypertension,Diuretics,Outpatient
+3,19,3,8/13/2024,Shortness of breath,Heart Failure,ACE inhibitors,Emergency
+3,42,2,11/14/2024,Shortness of breath,Arrhythmia,Steroids,Inpatient
+4,39,3,2/17/2024,Bluish lips,Heart Failure,Steroids,Outpatient
+5,7,2,1/18/2024,Rapid heartbeat,Hypertension,ACE inhibitors,Inpatient
+5,17,2,10-12-2023,Bluish lips,Hypertension,Statins,Inpatient
+6,37,1,8/30/2024,Coughing,Myocardial Infarction,ACE inhibitors,Inpatient
+6,32,3,07-03-2024,Shortness of breath,Bronchitis,Inhaler,Inpatient
+7,6,3,02-07-2025,Chest pain,Hypertension,Statins,Outpatient
+8,9,2,02-12-2025,Palpitations,Hypertension,Beta-blockers,Outpatient
+9,49,2,12/13/2023,Coughing,Hypertension,Calcium channel blockers,Emergency
+10,7,3,09-11-2024,Wheezing,Arrhythmia,Steroids,Outpatient
+10,32,2,2/25/2025,Palpitations,Pneumonia,Beta-blockers,Emergency
+11,20,3,7/23/2024,Shortness of breath,Heart Failure,Oxygen therapy,Outpatient
+11,42,2,11/25/2023,Palpitations,Lung Cancer,Antibiotics,Inpatient
+12,4,3,12/13/2023,Coughing,COPD,Inhaler,Emergency
+13,30,3,11-10-2024,Fatigue,Bronchitis,Inhaler,Inpatient
+13,13,2,09-03-2023,Shortness of breath,Hypertension,Inhaler,Emergency
+14,7,2,1/13/2025,Bluish lips,Arrhythmia,Statins,Emergency
+15,34,2,2/24/2024,Rapid heartbeat,Hypertension,ACE inhibitors,Inpatient
+16,4,3,08-09-2024,Wheezing,Bronchitis,Inhaler,Inpatient
+17,20,3,03-07-2025,Bluish lips,Lung Cancer,Diuretics,Outpatient
+17,12,3,08-12-2023,Shortness of breath,Pneumonia,ACE inhibitors,Inpatient
+18,20,1,5/27/2025,Palpitations,Arrhythmia,Beta-blockers,Inpatient
+19,10,1,7/18/2024,Shortness of breath,Pneumonia,Oxygen therapy,Inpatient
+19,29,3,12/31/2024,Palpitations,Heart Failure,Statins,Emergency
+20,6,1,3/26/2024,Swelling in legs,COPD,Calcium channel blockers,Outpatient
+21,16,3,02-08-2025,Swelling in legs,Hypertension,Antibiotics,Outpatient
+21,39,3,12-07-2024,Palpitations,Hypertension,Statins,Emergency
+22,46,2,6/29/2024,Wheezing,Bronchitis,ACE inhibitors,Outpatient
+22,22,2,1/21/2024,Wheezing,COPD,Calcium channel blockers,Outpatient
+23,33,1,4/22/2024,Palpitations,Myocardial Infarction,ACE inhibitors,Inpatient
+24,29,2,9/25/2024,Swelling in legs,Hypertension,Inhaler,Inpatient
+24,50,3,11-06-2023,Chest pain,Arrhythmia,Inhaler,Emergency
+25,41,3,6/18/2024,Fatigue,Bronchitis,Diuretics,Inpatient
+26,14,3,06-07-2024,Bluish lips,Arrhythmia,ACE inhibitors,Outpatient
+26,12,1,8/26/2023,Palpitations,Pneumonia,Statins,Emergency
+27,4,2,10-04-2023,Shortness of breath,COPD,Beta-blockers,Inpatient
+27,45,3,09-01-2024,Swelling in legs,Bronchitis,Beta-blockers,Inpatient
+28,8,2,7/29/2024,Rapid heartbeat,Pneumonia,Calcium channel blockers,Inpatient
+29,28,1,1/17/2025,Bluish lips,Lung Cancer,Beta-blockers,Inpatient
+29,29,3,03-05-2024,Palpitations,Lung Cancer,Oxygen therapy,Outpatient
+30,34,2,11/13/2024,Chest pain,Pneumonia,Oxygen therapy,Emergency
+31,23,1,3/24/2025,Fatigue,Bronchitis,Statins,Emergency
+32,44,3,11-05-2023,Shortness of breath,Lung Cancer,ACE inhibitors,Emergency
+32,13,3,09-02-2024,Chest pain,Bronchitis,Antibiotics,Inpatient
+33,3,2,5/14/2025,Palpitations,Pneumonia,Antibiotics,Inpatient
+34,14,2,4/13/2025,Shortness of breath,Bronchitis,Beta-blockers,Outpatient
+35,7,3,04-04-2024,Fatigue,Hypertension,Calcium channel blockers,Outpatient
+35,25,2,09-11-2023,Coughing,Lung Cancer,Diuretics,Outpatient
+36,16,2,1/15/2025,Chest pain,Heart Failure,Oxygen therapy,Inpatient
+37,29,1,9/13/2024,Bluish lips,Myocardial Infarction,Beta-blockers,Emergency
+38,45,1,12-08-2024,Coughing,Arrhythmia,Oxygen therapy,Emergency
+38,6,1,07-05-2024,Rapid heartbeat,COPD,Antibiotics,Inpatient
+39,30,3,03-05-2025,Wheezing,Heart Failure,Beta-blockers,Inpatient
+40,8,1,08-03-2024,Palpitations,Pneumonia,Antibiotics,Outpatient
+40,31,2,8/23/2024,Coughing,Bronchitis,Antibiotics,Inpatient
+41,1,1,4/18/2024,Wheezing,Bronchitis,Inhaler,Outpatient
+42,47,2,6/28/2024,Bluish lips,Myocardial Infarction,Oxygen therapy,Emergency
+42,44,1,12-11-2023,Swelling in legs,Pneumonia,Oxygen therapy,Outpatient
+43,30,2,10/26/2023,Swelling in legs,Pneumonia,Statins,Outpatient
+43,40,2,02-08-2024,Palpitations,Asthma,Beta-blockers,Outpatient
+44,4,2,10/31/2023,Palpitations,COPD,Beta-blockers,Emergency
+45,46,3,7/27/2023,Bluish lips,Bronchitis,Statins,Emergency
+46,41,1,9/19/2023,Shortness of breath,Hypertension,Beta-blockers,Outpatient
+47,25,2,10-01-2024,Rapid heartbeat,Arrhythmia,Steroids,Outpatient
+48,3,3,11-07-2024,Swelling in legs,Hypertension,Beta-blockers,Outpatient
+48,18,2,11-11-2023,Swelling in legs,Asthma,Antibiotics,Inpatient
+49,8,2,6/18/2024,Coughing,Pneumonia,Inhaler,Outpatient
+49,13,3,05-05-2024,Palpitations,Arrhythmia,Steroids,Outpatient
+50,38,1,1/24/2025,Palpitations,COPD,Beta-blockers,Emergency
+50,28,3,11/23/2023,Bluish lips,Heart Failure,Diuretics,Emergency
+51,46,1,10/31/2023,Bluish lips,Asthma,Diuretics,Inpatient
+51,22,3,5/20/2025,Fatigue,Pneumonia,Diuretics,Outpatient
+52,34,2,01-11-2025,Chest pain,Pneumonia,Steroids,Emergency
+53,18,1,12/19/2023,Shortness of breath,Lung Cancer,Statins,Outpatient
+53,3,1,5/17/2024,Bluish lips,Bronchitis,Beta-blockers,Outpatient
+54,11,3,3/16/2025,Rapid heartbeat,Myocardial Infarction,Oxygen therapy,Outpatient
+55,49,1,1/20/2024,Coughing,Bronchitis,Antibiotics,Outpatient
+56,27,1,11/21/2023,Coughing,Lung Cancer,Antibiotics,Emergency
+56,11,3,9/30/2023,Wheezing,COPD,Steroids,Emergency
+57,44,3,6/24/2025,Chest pain,Myocardial Infarction,Inhaler,Emergency
+58,17,1,6/13/2024,Wheezing,Pneumonia,Calcium channel blockers,Emergency
+58,20,1,11/29/2023,Rapid heartbeat,Arrhythmia,Calcium channel blockers,Outpatient
+59,10,1,1/14/2024,Bluish lips,Arrhythmia,Steroids,Outpatient
+59,25,3,5/26/2024,Shortness of breath,Pneumonia,Diuretics,Outpatient
+60,18,2,7/17/2023,Wheezing,Myocardial Infarction,Diuretics,Emergency
+60,28,1,3/26/2024,Fatigue,Myocardial Infarction,Oxygen therapy,Outpatient
+61,40,2,8/26/2023,Bluish lips,Myocardial Infarction,Diuretics,Outpatient
+62,15,3,07-01-2024,Rapid heartbeat,Arrhythmia,Diuretics,Outpatient
+63,5,1,01-12-2025,Wheezing,Asthma,Statins,Inpatient
+63,1,3,07-10-2024,Shortness of breath,COPD,Beta-blockers,Inpatient
+64,31,1,7/27/2023,Palpitations,Bronchitis,Beta-blockers,Emergency
+65,21,1,06-09-2025,Palpitations,Myocardial Infarction,Diuretics,Emergency
+66,7,2,6/24/2024,Swelling in legs,COPD,Inhaler,Emergency
+66,8,3,6/29/2024,Swelling in legs,Arrhythmia,Calcium channel blockers,Outpatient
+67,9,2,1/23/2024,Rapid heartbeat,Pneumonia,ACE inhibitors,Outpatient
+68,25,2,3/21/2024,Rapid heartbeat,COPD,Statins,Emergency
+68,24,3,04-06-2025,Wheezing,Bronchitis,Calcium channel blockers,Emergency
+69,46,3,12-01-2024,Rapid heartbeat,Hypertension,Beta-blockers,Emergency
+70,41,3,03-05-2024,Bluish lips,Pneumonia,Inhaler,Outpatient
+71,25,2,5/15/2024,Rapid heartbeat,Asthma,Oxygen therapy,Emergency
+72,45,3,5/15/2025,Coughing,Lung Cancer,Calcium channel blockers,Emergency
+72,26,2,12/30/2023,Wheezing,Heart Failure,Inhaler,Outpatient
+73,34,2,07-03-2024,Chest pain,COPD,ACE inhibitors,Emergency
+74,22,3,12/27/2024,Chest pain,Bronchitis,Steroids,Inpatient
+74,41,2,07-12-2023,Shortness of breath,Hypertension,Calcium channel blockers,Inpatient
+75,1,2,7/31/2024,Rapid heartbeat,Myocardial Infarction,Oxygen therapy,Outpatient
+75,27,1,4/18/2025,Bluish lips,Hypertension,Statins,Emergency
+76,49,2,3/18/2025,Chest pain,Heart Failure,Inhaler,Inpatient
+77,38,2,01-02-2024,Swelling in legs,Hypertension,Oxygen therapy,Outpatient
+77,12,1,12-03-2023,Wheezing,Arrhythmia,Steroids,Inpatient
+78,16,1,04-02-2024,Shortness of breath,Bronchitis,Beta-blockers,Outpatient
+79,25,3,1/30/2025,Bluish lips,Lung Cancer,ACE inhibitors,Inpatient
+80,17,1,12/16/2023,Coughing,Lung Cancer,Oxygen therapy,Inpatient
+80,5,1,6/15/2024,Shortness of breath,Bronchitis,Oxygen therapy,Emergency
+81,19,1,2/24/2025,Swelling in legs,Myocardial Infarction,Statins,Outpatient
+81,29,3,12/15/2023,Fatigue,Myocardial Infarction,Statins,Emergency
+82,39,1,9/20/2023,Shortness of breath,Lung Cancer,Inhaler,Outpatient
+83,47,2,04-11-2024,Fatigue,Hypertension,Oxygen therapy,Emergency
+84,24,3,5/18/2024,Rapid heartbeat,Heart Failure,Calcium channel blockers,Outpatient
+84,5,2,11-11-2023,Rapid heartbeat,COPD,Statins,Inpatient
+85,29,2,7/24/2023,Swelling in legs,Asthma,Steroids,Inpatient
+86,9,1,03-06-2024,Chest pain,Asthma,Statins,Inpatient
+87,23,1,7/29/2024,Palpitations,Pneumonia,Inhaler,Inpatient
+88,10,1,6/24/2024,Wheezing,Arrhythmia,Beta-blockers,Emergency
+88,27,2,6/13/2024,Shortness of breath,Heart Failure,Oxygen therapy,Outpatient
+89,31,1,8/19/2024,Wheezing,Heart Failure,Antibiotics,Inpatient
+90,25,3,08-05-2024,Palpitations,Lung Cancer,ACE inhibitors,Outpatient
+90,14,1,5/21/2024,Fatigue,Myocardial Infarction,Statins,Inpatient
+91,12,2,6/19/2024,Fatigue,Asthma,ACE inhibitors,Outpatient
+91,14,2,03-12-2024,Shortness of breath,Myocardial Infarction,Antibiotics,Outpatient
+92,27,2,12-11-2023,Wheezing,Asthma,Calcium channel blockers,Inpatient
+92,26,3,2/25/2025,Swelling in legs,COPD,Antibiotics,Emergency
+93,7,2,8/30/2024,Swelling in legs,COPD,Steroids,Outpatient
+93,30,3,01-05-2025,Fatigue,Bronchitis,Calcium channel blockers,Inpatient
+94,16,2,9/29/2024,Bluish lips,Lung Cancer,Statins,Outpatient
+94,15,2,9/26/2023,Swelling in legs,Hypertension,Statins,Inpatient
+95,2,2,08-08-2023,Palpitations,Heart Failure,Diuretics,Outpatient
+95,25,1,5/26/2025,Rapid heartbeat,Pneumonia,Statins,Inpatient
+96,49,1,8/21/2024,Palpitations,COPD,Steroids,Outpatient
+96,17,1,07-03-2023,Rapid heartbeat,Arrhythmia,Statins,Inpatient
+97,35,2,12/30/2023,Wheezing,Heart Failure,Statins,Emergency
+98,5,3,04-08-2024,Chest pain,Hypertension,Calcium channel blockers,Emergency
+99,49,1,6/30/2024,Fatigue,Bronchitis,Beta-blockers,Outpatient
+100,7,1,11-12-2024,Shortness of breath,Pneumonia,Antibiotics,Emergency
+101,30,2,9/27/2023,Coughing,Bronchitis,Antibiotics,Inpatient
+102,26,2,12/20/2024,Chest pain,Heart Failure,Steroids,Outpatient
+102,23,3,11/29/2024,Coughing,Arrhythmia,ACE inhibitors,Outpatient
+103,8,2,12/13/2024,Chest pain,Bronchitis,Calcium channel blockers,Outpatient
+103,15,1,5/19/2024,Chest pain,Myocardial Infarction,Oxygen therapy,Outpatient
+104,20,1,09-12-2024,Shortness of breath,Heart Failure,Diuretics,Outpatient
+104,22,1,11/17/2024,Shortness of breath,Asthma,Antibiotics,Emergency
+105,4,2,9/22/2024,Swelling in legs,COPD,Diuretics,Outpatient
+106,41,2,1/23/2024,Shortness of breath,Hypertension,Oxygen therapy,Emergency
+106,4,1,12-06-2023,Swelling in legs,Heart Failure,ACE inhibitors,Emergency
+107,41,2,6/20/2025,Rapid heartbeat,Asthma,Inhaler,Outpatient
+107,12,3,03-08-2025,Rapid heartbeat,Arrhythmia,Statins,Emergency
+108,14,3,11/29/2023,Swelling in legs,Arrhythmia,Beta-blockers,Outpatient
+108,32,1,1/25/2024,Wheezing,Hypertension,Statins,Outpatient
+109,31,3,7/16/2024,Palpitations,Pneumonia,Oxygen therapy,Inpatient
+109,6,2,5/31/2025,Palpitations,Heart Failure,Beta-blockers,Inpatient
+110,32,1,7/26/2023,Bluish lips,Bronchitis,Beta-blockers,Emergency
+110,8,1,8/14/2024,Palpitations,Bronchitis,Antibiotics,Emergency
+111,12,3,6/26/2024,Rapid heartbeat,Bronchitis,Inhaler,Inpatient
+111,13,3,7/20/2024,Shortness of breath,Lung Cancer,ACE inhibitors,Inpatient
+112,47,3,6/24/2025,Bluish lips,Hypertension,Steroids,Emergency
+113,21,2,10/20/2023,Swelling in legs,Hypertension,Steroids,Emergency
+113,8,2,08-02-2023,Chest pain,Heart Failure,Diuretics,Emergency
+114,40,2,7/16/2023,Bluish lips,Lung Cancer,Inhaler,Outpatient
+115,6,2,09-10-2023,Bluish lips,Heart Failure,Oxygen therapy,Outpatient
+115,41,2,12-03-2023,Chest pain,Hypertension,Beta-blockers,Inpatient
+116,21,1,3/27/2024,Bluish lips,Heart Failure,Inhaler,Emergency
+117,25,1,07-07-2023,Swelling in legs,Pneumonia,ACE inhibitors,Outpatient
+118,47,2,8/15/2024,Bluish lips,Arrhythmia,Statins,Inpatient
+118,8,2,4/22/2025,Shortness of breath,Hypertension,Statins,Emergency
+119,40,3,9/20/2024,Rapid heartbeat,Asthma,Antibiotics,Emergency
+120,12,2,7/23/2023,Wheezing,Bronchitis,Beta-blockers,Inpatient
+121,32,2,4/13/2024,Chest pain,Myocardial Infarction,Statins,Outpatient
+121,32,1,11/29/2024,Bluish lips,Arrhythmia,Statins,Inpatient
+122,27,1,9/18/2023,Coughing,Arrhythmia,Diuretics,Emergency
+123,7,3,3/29/2025,Shortness of breath,Asthma,Diuretics,Emergency
+123,24,3,11/25/2024,Rapid heartbeat,Hypertension,Calcium channel blockers,Emergency
+124,50,2,11/15/2024,Rapid heartbeat,COPD,Inhaler,Outpatient
+124,45,3,03-06-2024,Wheezing,Myocardial Infarction,ACE inhibitors,Outpatient
+125,42,3,3/14/2024,Wheezing,COPD,Calcium channel blockers,Inpatient
+126,22,2,04-11-2024,Shortness of breath,Myocardial Infarction,Oxygen therapy,Emergency
+127,6,3,04-02-2025,Bluish lips,Myocardial Infarction,Oxygen therapy,Emergency
+128,33,3,05-06-2024,Palpitations,Bronchitis,Statins,Inpatient
+129,2,2,7/16/2024,Coughing,Hypertension,Statins,Inpatient
+129,30,3,07-03-2023,Rapid heartbeat,Pneumonia,Oxygen therapy,Outpatient
+130,24,3,9/19/2023,Chest pain,Myocardial Infarction,Inhaler,Inpatient
+131,11,3,12-01-2024,Palpitations,Asthma,Diuretics,Inpatient
+132,36,2,09-05-2024,Coughing,Myocardial Infarction,Oxygen therapy,Emergency
+132,37,1,8/30/2023,Fatigue,Hypertension,Inhaler,Outpatient
+133,21,3,06-05-2024,Coughing,Hypertension,Diuretics,Inpatient
+133,1,2,09-02-2023,Fatigue,COPD,Statins,Inpatient
+134,14,3,4/27/2025,Swelling in legs,COPD,Oxygen therapy,Outpatient
+135,5,3,5/19/2024,Swelling in legs,Myocardial Infarction,Inhaler,Inpatient
+135,2,3,6/13/2024,Rapid heartbeat,Myocardial Infarction,Inhaler,Outpatient
+136,11,1,9/23/2024,Wheezing,Lung Cancer,Diuretics,Outpatient
+136,25,3,01-04-2024,Fatigue,Arrhythmia,Oxygen therapy,Emergency
+137,44,2,7/19/2024,Coughing,Pneumonia,Antibiotics,Inpatient
+137,15,1,10/26/2024,Fatigue,Bronchitis,ACE inhibitors,Inpatient
+138,45,2,4/25/2024,Wheezing,COPD,Beta-blockers,Emergency
+138,43,1,6/21/2025,Fatigue,Bronchitis,Calcium channel blockers,Inpatient
+139,5,1,6/22/2024,Shortness of breath,Myocardial Infarction,Calcium channel blockers,Inpatient
+140,5,1,8/28/2024,Chest pain,Pneumonia,Statins,Outpatient
+141,20,1,1/25/2024,Swelling in legs,Asthma,Oxygen therapy,Outpatient
+142,37,2,11/17/2024,Rapid heartbeat,Arrhythmia,Steroids,Inpatient
+142,29,1,2/21/2024,Coughing,COPD,Antibiotics,Outpatient
+143,49,2,9/13/2024,Palpitations,Pneumonia,Antibiotics,Outpatient
+143,38,3,3/25/2025,Coughing,Hypertension,Beta-blockers,Inpatient
+144,33,2,9/22/2023,Palpitations,Arrhythmia,Calcium channel blockers,Emergency
+144,22,3,09-03-2024,Chest pain,Bronchitis,Calcium channel blockers,Emergency
+145,47,3,12-04-2024,Rapid heartbeat,Bronchitis,Statins,Inpatient
+145,14,1,11/25/2023,Chest pain,Hypertension,Beta-blockers,Outpatient
+146,7,2,1/27/2024,Fatigue,Pneumonia,Beta-blockers,Inpatient
+146,35,3,5/26/2024,Rapid heartbeat,Heart Failure,Steroids,Emergency
+147,1,2,11-11-2024,Swelling in legs,Heart Failure,Oxygen therapy,Emergency
+148,22,3,2/16/2025,Fatigue,Lung Cancer,Steroids,Emergency
+149,42,2,9/23/2024,Fatigue,Heart Failure,Statins,Inpatient
+149,50,3,3/16/2024,Rapid heartbeat,Asthma,Diuretics,Outpatient
+150,36,1,10-10-2024,Palpitations,Hypertension,Antibiotics,Inpatient
+151,30,2,11/29/2024,Bluish lips,COPD,Inhaler,Emergency
+152,37,3,02-01-2025,Swelling in legs,Asthma,Steroids,Inpatient
+153,10,1,12/13/2024,Wheezing,Asthma,Statins,Outpatient
+154,24,3,9/24/2023,Shortness of breath,Arrhythmia,ACE inhibitors,Inpatient
+155,8,2,01-02-2024,Fatigue,Bronchitis,Diuretics,Outpatient
+155,15,1,04-08-2025,Bluish lips,Bronchitis,Inhaler,Outpatient
+156,19,1,7/19/2024,Wheezing,Pneumonia,ACE inhibitors,Emergency
+157,25,1,8/18/2023,Wheezing,Myocardial Infarction,Oxygen therapy,Outpatient
+158,29,2,8/22/2023,Fatigue,Arrhythmia,Steroids,Inpatient
+158,14,3,10/17/2023,Palpitations,Lung Cancer,Diuretics,Inpatient
+159,7,1,07-07-2024,Swelling in legs,Hypertension,Statins,Outpatient
+160,31,1,08-02-2024,Bluish lips,Hypertension,ACE inhibitors,Inpatient
+161,10,2,4/24/2024,Wheezing,Hypertension,Steroids,Outpatient
+161,37,3,5/22/2025,Chest pain,Pneumonia,Diuretics,Outpatient
+162,11,1,2/13/2024,Coughing,Myocardial Infarction,Oxygen therapy,Inpatient
+162,32,2,6/17/2024,Bluish lips,Bronchitis,Antibiotics,Outpatient
+163,15,2,4/19/2025,Shortness of breath,COPD,Beta-blockers,Inpatient
+163,48,1,05-05-2025,Coughing,Arrhythmia,ACE inhibitors,Outpatient
+164,48,3,7/29/2024,Palpitations,Asthma,ACE inhibitors,Outpatient
+165,15,3,11/27/2023,Bluish lips,Heart Failure,Steroids,Outpatient
+165,20,3,09-01-2023,Bluish lips,Lung Cancer,Statins,Inpatient
+166,12,1,3/28/2024,Palpitations,COPD,Diuretics,Inpatient
+167,14,1,5/17/2024,Palpitations,Arrhythmia,Diuretics,Inpatient
+168,47,3,4/13/2025,Palpitations,Bronchitis,Steroids,Inpatient
+168,40,2,10/18/2024,Bluish lips,COPD,Statins,Emergency
+169,16,1,4/14/2025,Palpitations,COPD,Beta-blockers,Inpatient
+170,8,1,3/17/2025,Wheezing,Heart Failure,Steroids,Inpatient
+170,20,3,10-08-2023,Bluish lips,Heart Failure,Calcium channel blockers,Outpatient
+171,25,1,08-09-2023,Fatigue,Hypertension,Inhaler,Emergency
+171,33,2,05-07-2025,Wheezing,Heart Failure,Calcium channel blockers,Outpatient
+172,34,3,08-05-2024,Palpitations,COPD,Diuretics,Inpatient
+173,11,2,6/30/2024,Fatigue,Heart Failure,Diuretics,Outpatient
+174,34,1,9/20/2024,Coughing,Lung Cancer,Inhaler,Inpatient
+174,24,1,5/25/2025,Swelling in legs,COPD,Beta-blockers,Outpatient
+175,12,1,03-05-2025,Wheezing,COPD,Oxygen therapy,Inpatient
+175,27,2,07-09-2023,Coughing,Arrhythmia,Steroids,Outpatient
+176,31,2,09-05-2023,Palpitations,Heart Failure,Steroids,Emergency
+176,8,1,7/31/2024,Chest pain,Asthma,Beta-blockers,Inpatient
+177,20,2,12-11-2024,Chest pain,COPD,Beta-blockers,Outpatient
+177,50,3,6/22/2024,Coughing,Asthma,Statins,Emergency
+178,19,1,4/16/2025,Chest pain,Asthma,ACE inhibitors,Emergency
+178,25,1,2/29/2024,Rapid heartbeat,Lung Cancer,Antibiotics,Inpatient
+179,22,3,2/16/2024,Fatigue,Asthma,Antibiotics,Inpatient
+180,5,3,01-11-2024,Coughing,Bronchitis,Inhaler,Emergency
+181,20,3,05-02-2025,Fatigue,COPD,Calcium channel blockers,Emergency
+182,8,3,11/22/2024,Coughing,Bronchitis,Steroids,Outpatient
+182,41,3,07-02-2024,Fatigue,Arrhythmia,Steroids,Inpatient
+183,16,2,12/22/2023,Palpitations,Hypertension,Statins,Outpatient
+183,3,2,3/28/2025,Coughing,COPD,Steroids,Outpatient
+184,29,1,5/30/2025,Shortness of breath,Arrhythmia,Antibiotics,Emergency
+185,31,2,3/13/2025,Fatigue,Asthma,Inhaler,Emergency
+186,22,2,9/20/2023,Wheezing,Asthma,Calcium channel blockers,Emergency
+187,12,1,07-12-2024,Rapid heartbeat,Pneumonia,Antibiotics,Inpatient
+188,31,1,06-08-2024,Rapid heartbeat,Heart Failure,Beta-blockers,Inpatient
+189,15,1,05-07-2025,Rapid heartbeat,Asthma,Beta-blockers,Emergency
+190,22,2,12-05-2023,Palpitations,Heart Failure,ACE inhibitors,Emergency
+190,12,1,09-01-2023,Shortness of breath,Hypertension,Beta-blockers,Inpatient
+191,11,2,05-06-2025,Coughing,Hypertension,ACE inhibitors,Inpatient
+191,13,1,6/19/2024,Coughing,Hypertension,Inhaler,Inpatient
+192,38,3,5/14/2024,Fatigue,Lung Cancer,Oxygen therapy,Outpatient
+192,30,3,10/16/2024,Rapid heartbeat,COPD,Steroids,Outpatient
+193,40,3,3/23/2025,Shortness of breath,Hypertension,Statins,Inpatient
+194,30,3,3/18/2025,Fatigue,Bronchitis,Antibiotics,Emergency
+194,45,2,11-03-2023,Palpitations,Heart Failure,Calcium channel blockers,Emergency
+195,19,3,1/27/2024,Swelling in legs,Lung Cancer,Calcium channel blockers,Inpatient
+195,34,3,8/19/2024,Bluish lips,Arrhythmia,Antibiotics,Outpatient
+196,17,3,6/18/2025,Shortness of breath,Myocardial Infarction,Diuretics,Inpatient
+197,34,3,11/29/2024,Shortness of breath,Bronchitis,Inhaler,Outpatient
+198,31,2,5/29/2025,Shortness of breath,Asthma,ACE inhibitors,Outpatient
+198,1,1,2/27/2025,Palpitations,Arrhythmia,Beta-blockers,Inpatient
+199,8,1,7/18/2023,Chest pain,COPD,Beta-blockers,Outpatient
+200,10,2,02-09-2024,Chest pain,Heart Failure,Calcium channel blockers,Inpatient
+201,8,3,10-12-2023,Fatigue,Asthma,Steroids,Emergency
+202,38,1,4/15/2025,Wheezing,Asthma,Statins,Inpatient
+202,48,3,12/24/2023,Wheezing,Bronchitis,Beta-blockers,Emergency
+203,10,3,04-10-2025,Rapid heartbeat,Arrhythmia,Statins,Inpatient
+204,43,1,2/15/2024,Chest pain,Asthma,Beta-blockers,Emergency
+204,11,2,04-02-2024,Rapid heartbeat,Lung Cancer,Calcium channel blockers,Outpatient
+205,50,3,11/25/2023,Coughing,Heart Failure,Oxygen therapy,Emergency
+205,40,1,9/29/2024,Fatigue,COPD,Calcium channel blockers,Emergency
+206,15,2,03-04-2025,Chest pain,Pneumonia,Oxygen therapy,Inpatient
+206,39,1,11-04-2024,Wheezing,Arrhythmia,Statins,Outpatient
+207,21,3,05-03-2024,Shortness of breath,Pneumonia,Calcium channel blockers,Inpatient
+208,26,1,12/31/2024,Coughing,Heart Failure,Calcium channel blockers,Emergency
+208,32,1,3/13/2024,Chest pain,Pneumonia,Inhaler,Inpatient
+209,19,3,7/15/2023,Palpitations,Arrhythmia,Steroids,Outpatient
+209,7,2,4/30/2025,Fatigue,Bronchitis,Antibiotics,Outpatient
+210,38,3,10/16/2024,Fatigue,Myocardial Infarction,Oxygen therapy,Outpatient
+211,17,1,7/21/2024,Shortness of breath,Pneumonia,Statins,Outpatient
+211,45,3,02-07-2024,Fatigue,Hypertension,Beta-blockers,Inpatient
+212,19,3,5/29/2024,Bluish lips,Arrhythmia,Antibiotics,Emergency
+212,25,1,07-05-2023,Shortness of breath,Asthma,Statins,Outpatient
+213,17,2,10-03-2024,Shortness of breath,COPD,Oxygen therapy,Inpatient
+214,2,2,02-01-2025,Coughing,Asthma,Inhaler,Inpatient
+215,22,1,7/24/2023,Palpitations,Pneumonia,Antibiotics,Emergency
+215,36,1,5/27/2025,Rapid heartbeat,Arrhythmia,Antibiotics,Outpatient
+216,33,3,09-01-2023,Chest pain,Lung Cancer,Diuretics,Emergency
+217,9,1,5/20/2024,Coughing,Asthma,Steroids,Emergency
+217,10,1,8/26/2023,Coughing,Pneumonia,Diuretics,Outpatient
+218,7,3,07-11-2024,Coughing,Pneumonia,Antibiotics,Inpatient
+219,3,3,03-07-2025,Palpitations,Hypertension,Oxygen therapy,Outpatient
+220,42,1,06-10-2025,Chest pain,Arrhythmia,Statins,Inpatient
+220,13,3,04-12-2025,Bluish lips,Asthma,Oxygen therapy,Outpatient
+221,20,2,04-03-2025,Coughing,Asthma,ACE inhibitors,Emergency
+222,6,3,2/23/2024,Palpitations,Hypertension,Steroids,Inpatient
+223,25,1,3/25/2024,Swelling in legs,COPD,Steroids,Outpatient
+223,30,3,3/31/2024,Chest pain,Lung Cancer,ACE inhibitors,Outpatient
+224,18,3,11/27/2023,Swelling in legs,Lung Cancer,Inhaler,Outpatient
+224,10,3,6/26/2023,Swelling in legs,Arrhythmia,Calcium channel blockers,Inpatient
+225,33,1,3/19/2025,Chest pain,Bronchitis,Calcium channel blockers,Emergency
+226,3,3,2/17/2025,Fatigue,Arrhythmia,Statins,Inpatient
+226,16,2,11/24/2023,Fatigue,COPD,Inhaler,Emergency
+227,27,3,08-11-2024,Coughing,Myocardial Infarction,Steroids,Inpatient
+227,13,3,11/18/2023,Chest pain,Bronchitis,Calcium channel blockers,Inpatient
+228,22,2,03-03-2025,Wheezing,Lung Cancer,Antibiotics,Inpatient
+228,27,1,08-11-2024,Shortness of breath,Bronchitis,ACE inhibitors,Outpatient
+229,12,2,01-04-2024,Wheezing,Lung Cancer,Statins,Emergency
+230,46,2,6/18/2025,Coughing,Asthma,Antibiotics,Emergency
+230,42,1,11-12-2023,Bluish lips,Asthma,Antibiotics,Emergency
+231,39,1,2/17/2024,Bluish lips,Asthma,Beta-blockers,Inpatient
+232,5,3,11-12-2023,Wheezing,Arrhythmia,Oxygen therapy,Emergency
+232,25,1,08-09-2024,Bluish lips,Bronchitis,Beta-blockers,Inpatient
+233,34,1,11/23/2024,Swelling in legs,Asthma,Statins,Emergency
+233,39,1,09-06-2023,Chest pain,Asthma,Steroids,Inpatient
+234,39,2,11-07-2023,Palpitations,Arrhythmia,Inhaler,Emergency
+235,48,2,6/30/2023,Bluish lips,Heart Failure,Beta-blockers,Inpatient
+236,40,1,10-05-2023,Chest pain,Arrhythmia,ACE inhibitors,Inpatient
+236,16,3,8/21/2023,Swelling in legs,Heart Failure,Beta-blockers,Outpatient
+237,34,2,7/24/2023,Fatigue,Pneumonia,Inhaler,Outpatient
+238,26,3,11/16/2024,Wheezing,Hypertension,Beta-blockers,Outpatient
+238,2,3,12-12-2024,Shortness of breath,Pneumonia,Oxygen therapy,Inpatient
+239,45,2,11/20/2023,Coughing,Hypertension,Diuretics,Inpatient
+239,40,1,1/27/2025,Chest pain,Myocardial Infarction,Antibiotics,Emergency
+240,27,3,6/18/2025,Coughing,Myocardial Infarction,Inhaler,Outpatient
+241,11,2,7/19/2023,Bluish lips,Asthma,Steroids,Outpatient
+241,25,1,6/27/2024,Shortness of breath,Bronchitis,ACE inhibitors,Outpatient
+242,2,3,3/16/2025,Wheezing,Asthma,Calcium channel blockers,Inpatient
+242,8,2,09-04-2024,Swelling in legs,Heart Failure,Statins,Outpatient
+243,34,3,12/22/2023,Fatigue,Hypertension,ACE inhibitors,Inpatient
+244,33,3,10/25/2024,Chest pain,Arrhythmia,ACE inhibitors,Emergency
+245,15,1,10/23/2024,Chest pain,Pneumonia,Calcium channel blockers,Inpatient
+245,11,2,7/16/2024,Fatigue,Hypertension,Oxygen therapy,Emergency
+246,32,2,3/29/2025,Shortness of breath,Arrhythmia,Antibiotics,Emergency
+246,16,2,11/18/2023,Bluish lips,Asthma,Inhaler,Outpatient
+247,15,1,10/20/2023,Bluish lips,Bronchitis,Beta-blockers,Outpatient
+247,32,1,8/28/2024,Chest pain,Heart Failure,Antibiotics,Outpatient
+248,4,2,5/19/2024,Palpitations,COPD,Statins,Emergency
+248,26,3,11/16/2024,Swelling in legs,Asthma,Calcium channel blockers,Inpatient
+249,32,2,4/14/2024,Wheezing,Lung Cancer,Diuretics,Outpatient
+249,27,3,01-10-2024,Wheezing,Lung Cancer,Diuretics,Emergency
+250,46,2,01-08-2025,Swelling in legs,Asthma,Beta-blockers,Outpatient
+251,45,3,06-11-2024,Swelling in legs,Hypertension,Steroids,Outpatient
+252,33,1,6/20/2025,Swelling in legs,Hypertension,ACE inhibitors,Outpatient
+252,16,1,11/24/2023,Wheezing,Myocardial Infarction,Diuretics,Inpatient
+253,22,1,3/28/2024,Wheezing,Asthma,Calcium channel blockers,Emergency
+254,42,2,02-09-2025,Palpitations,Asthma,ACE inhibitors,Outpatient
+255,4,3,7/29/2023,Chest pain,Heart Failure,Inhaler,Inpatient
+256,4,1,04-09-2024,Fatigue,COPD,Diuretics,Inpatient
+256,45,1,7/24/2023,Fatigue,Myocardial Infarction,Inhaler,Outpatient
+257,36,2,01-08-2025,Rapid heartbeat,Hypertension,ACE inhibitors,Outpatient
+257,40,3,11/25/2024,Rapid heartbeat,Asthma,Beta-blockers,Emergency
+258,43,3,1/27/2025,Palpitations,Hypertension,Steroids,Inpatient
+258,24,1,11/23/2023,Swelling in legs,COPD,ACE inhibitors,Inpatient
+259,33,1,07-03-2024,Rapid heartbeat,COPD,ACE inhibitors,Outpatient
+260,19,3,10/16/2024,Wheezing,Asthma,Statins,Outpatient
+261,10,2,08-08-2024,Bluish lips,Hypertension,Steroids,Emergency
+261,13,2,12-06-2024,Coughing,Arrhythmia,Beta-blockers,Inpatient
+262,14,1,6/30/2023,Swelling in legs,Lung Cancer,ACE inhibitors,Inpatient
+262,5,2,4/14/2025,Shortness of breath,Hypertension,Statins,Outpatient
+263,37,2,3/21/2024,Fatigue,COPD,Inhaler,Emergency
+263,34,3,11/17/2023,Rapid heartbeat,Myocardial Infarction,Inhaler,Outpatient
+264,38,3,4/21/2024,Fatigue,Pneumonia,Inhaler,Emergency
+264,46,1,4/14/2024,Bluish lips,Pneumonia,Antibiotics,Outpatient
+265,5,1,11/16/2023,Shortness of breath,Hypertension,ACE inhibitors,Outpatient
+266,44,1,04-09-2025,Palpitations,Heart Failure,Oxygen therapy,Outpatient
+267,11,3,8/24/2024,Rapid heartbeat,Lung Cancer,Antibiotics,Outpatient
+268,47,2,1/14/2025,Chest pain,Arrhythmia,Diuretics,Emergency
+269,10,2,9/28/2024,Swelling in legs,Pneumonia,ACE inhibitors,Inpatient
+270,2,2,2/15/2025,Palpitations,Bronchitis,Oxygen therapy,Emergency
+271,12,1,12-02-2023,Palpitations,Bronchitis,Beta-blockers,Inpatient
+271,7,3,9/25/2023,Rapid heartbeat,Myocardial Infarction,Antibiotics,Emergency
+272,8,2,4/16/2025,Rapid heartbeat,Lung Cancer,Calcium channel blockers,Emergency
+273,10,3,1/28/2025,Coughing,Arrhythmia,ACE inhibitors,Inpatient
+274,8,2,07-02-2024,Palpitations,Bronchitis,Calcium channel blockers,Emergency
+275,49,2,1/16/2025,Chest pain,Myocardial Infarction,Calcium channel blockers,Emergency
+276,8,2,2/21/2025,Coughing,Myocardial Infarction,Calcium channel blockers,Outpatient
+276,39,1,5/24/2025,Coughing,Heart Failure,Statins,Emergency
+277,15,3,11/19/2023,Coughing,Arrhythmia,Antibiotics,Inpatient
+278,8,2,02-07-2024,Wheezing,Hypertension,Statins,Inpatient
+278,7,1,09-09-2023,Wheezing,Asthma,Statins,Outpatient
+279,35,1,2/14/2024,Swelling in legs,COPD,Antibiotics,Emergency
+280,36,3,06-12-2024,Palpitations,Arrhythmia,Calcium channel blockers,Inpatient
+280,5,1,02-04-2025,Swelling in legs,Heart Failure,ACE inhibitors,Emergency
+281,28,3,02-04-2024,Coughing,Myocardial Infarction,Oxygen therapy,Emergency
+281,41,2,02-02-2025,Shortness of breath,Lung Cancer,Inhaler,Emergency
+282,41,1,05-07-2025,Palpitations,Myocardial Infarction,Beta-blockers,Outpatient
+283,36,3,7/17/2024,Chest pain,COPD,Statins,Emergency
+284,32,1,02-11-2024,Fatigue,COPD,Beta-blockers,Outpatient
+284,39,2,06-12-2024,Palpitations,Arrhythmia,Antibiotics,Outpatient
+285,45,1,01-09-2025,Bluish lips,Heart Failure,Antibiotics,Emergency
+285,39,1,6/13/2025,Palpitations,Myocardial Infarction,Steroids,Outpatient
+286,30,2,1/24/2025,Chest pain,Hypertension,Steroids,Emergency
+287,29,3,10-02-2024,Bluish lips,Hypertension,Statins,Emergency
+287,37,1,10/18/2023,Palpitations,Myocardial Infarction,Statins,Inpatient
+288,24,2,10/24/2023,Palpitations,Heart Failure,Steroids,Emergency
+288,8,1,09-08-2024,Swelling in legs,Pneumonia,Antibiotics,Outpatient
+289,39,3,02-06-2024,Palpitations,COPD,Inhaler,Outpatient
+289,9,2,11/23/2024,Coughing,COPD,Inhaler,Emergency
+290,15,3,07-06-2023,Palpitations,COPD,Calcium channel blockers,Inpatient
+291,47,3,11-01-2024,Fatigue,COPD,Inhaler,Emergency
+291,47,2,6/22/2025,Palpitations,COPD,Beta-blockers,Inpatient
+292,1,2,05-12-2024,Swelling in legs,Pneumonia,Beta-blockers,Outpatient
+293,34,3,09-08-2023,Bluish lips,Bronchitis,Diuretics,Outpatient
+293,11,2,05-05-2025,Wheezing,Bronchitis,Diuretics,Inpatient
+294,41,2,08-01-2023,Swelling in legs,Myocardial Infarction,ACE inhibitors,Inpatient
+294,15,1,2/20/2025,Shortness of breath,COPD,ACE inhibitors,Outpatient
+295,46,3,7/21/2024,Coughing,Hypertension,Beta-blockers,Inpatient
+296,3,3,4/13/2025,Coughing,Myocardial Infarction,Oxygen therapy,Emergency
+296,23,3,02-08-2024,Rapid heartbeat,Arrhythmia,Inhaler,Outpatient
+297,35,3,11/30/2024,Fatigue,COPD,Antibiotics,Emergency
+298,26,3,01-04-2024,Palpitations,Lung Cancer,ACE inhibitors,Emergency
+298,37,1,09-05-2024,Shortness of breath,Myocardial Infarction,Beta-blockers,Inpatient
+299,14,3,7/15/2024,Swelling in legs,Myocardial Infarction,Oxygen therapy,Emergency
+300,23,3,02-11-2025,Wheezing,Asthma,Oxygen therapy,Inpatient
+301,12,3,6/16/2024,Shortness of breath,Asthma,Statins,Outpatient
+302,6,1,11/24/2023,Palpitations,Lung Cancer,Inhaler,Emergency
+302,42,3,03-06-2024,Palpitations,Lung Cancer,Beta-blockers,Outpatient
+303,13,1,03-08-2025,Rapid heartbeat,Heart Failure,Diuretics,Emergency
+303,20,3,6/27/2023,Swelling in legs,COPD,Steroids,Outpatient
+304,45,3,12/26/2023,Coughing,Arrhythmia,Oxygen therapy,Outpatient
+305,38,3,10/18/2024,Wheezing,Asthma,Beta-blockers,Inpatient
+305,28,3,12/14/2024,Palpitations,Lung Cancer,Beta-blockers,Emergency
+306,20,3,10-01-2023,Swelling in legs,Myocardial Infarction,Steroids,Outpatient
+307,11,3,06-09-2024,Rapid heartbeat,COPD,ACE inhibitors,Outpatient
+307,22,2,10/29/2023,Bluish lips,Myocardial Infarction,Antibiotics,Outpatient
+308,46,3,11/30/2024,Swelling in legs,Asthma,Beta-blockers,Outpatient
+308,34,2,1/16/2025,Shortness of breath,Hypertension,Inhaler,Outpatient
+309,20,1,05-06-2025,Swelling in legs,Bronchitis,Calcium channel blockers,Outpatient
+310,34,2,12/21/2024,Fatigue,COPD,Statins,Inpatient
+311,31,3,12/31/2024,Rapid heartbeat,Myocardial Infarction,Inhaler,Inpatient
+312,21,3,12-02-2024,Shortness of breath,Arrhythmia,Statins,Inpatient
+313,29,1,2/22/2025,Bluish lips,Lung Cancer,Statins,Inpatient
+314,42,3,03-11-2025,Swelling in legs,Asthma,Steroids,Outpatient
+314,24,1,5/24/2025,Chest pain,Heart Failure,Oxygen therapy,Emergency
+315,18,1,5/20/2025,Wheezing,Lung Cancer,Calcium channel blockers,Outpatient
+316,27,1,09-01-2023,Rapid heartbeat,Arrhythmia,Diuretics,Emergency
+317,35,1,02-08-2025,Chest pain,Heart Failure,Oxygen therapy,Inpatient
+317,11,1,6/14/2024,Palpitations,Myocardial Infarction,Statins,Outpatient
+318,13,1,04-10-2025,Coughing,Hypertension,Antibiotics,Inpatient
+319,47,1,1/26/2025,Coughing,Asthma,Diuretics,Inpatient
+320,36,1,11/22/2024,Shortness of breath,Myocardial Infarction,Diuretics,Emergency
+321,7,2,12/16/2023,Rapid heartbeat,Arrhythmia,Beta-blockers,Outpatient
+322,13,2,10/27/2024,Chest pain,Hypertension,Diuretics,Outpatient
+323,27,3,12/19/2024,Palpitations,Arrhythmia,Antibiotics,Outpatient
+324,37,1,5/22/2025,Shortness of breath,Hypertension,Statins,Inpatient
+324,30,3,3/17/2025,Palpitations,Bronchitis,Antibiotics,Outpatient
+325,8,3,02-04-2025,Chest pain,Pneumonia,Oxygen therapy,Emergency
+326,48,3,10-02-2024,Chest pain,COPD,Oxygen therapy,Emergency
+327,38,3,8/15/2024,Bluish lips,Arrhythmia,Oxygen therapy,Inpatient
+327,41,1,8/17/2023,Wheezing,Myocardial Infarction,Statins,Inpatient
+328,45,2,01-07-2025,Bluish lips,Heart Failure,Steroids,Outpatient
+328,14,1,9/22/2023,Bluish lips,Bronchitis,Antibiotics,Emergency
+329,4,1,09-05-2024,Palpitations,Bronchitis,Antibiotics,Outpatient
+330,13,3,12-12-2024,Bluish lips,Pneumonia,Diuretics,Emergency
+330,47,1,4/16/2024,Rapid heartbeat,Pneumonia,Calcium channel blockers,Outpatient
+331,48,3,9/20/2024,Rapid heartbeat,Bronchitis,Calcium channel blockers,Inpatient
+331,28,3,01-05-2024,Rapid heartbeat,Heart Failure,Antibiotics,Inpatient
+332,37,2,6/26/2024,Wheezing,Asthma,Antibiotics,Outpatient
+332,50,3,4/17/2025,Fatigue,Bronchitis,ACE inhibitors,Emergency
+333,16,3,3/26/2025,Palpitations,Arrhythmia,ACE inhibitors,Emergency
+334,11,1,6/27/2023,Palpitations,Heart Failure,Calcium channel blockers,Inpatient
+335,14,2,1/15/2024,Rapid heartbeat,Arrhythmia,Inhaler,Emergency
+335,2,2,10/30/2024,Shortness of breath,Arrhythmia,Diuretics,Inpatient
+336,7,3,12/21/2023,Wheezing,Lung Cancer,Oxygen therapy,Emergency
+336,23,1,8/27/2023,Wheezing,Myocardial Infarction,Oxygen therapy,Inpatient
+337,45,1,8/18/2024,Shortness of breath,Lung Cancer,Steroids,Emergency
+338,15,2,08-10-2023,Coughing,Lung Cancer,Calcium channel blockers,Outpatient
+339,5,1,08-04-2023,Rapid heartbeat,Pneumonia,Statins,Outpatient
+339,22,3,11/19/2024,Palpitations,Pneumonia,Calcium channel blockers,Inpatient
+340,48,1,4/21/2024,Bluish lips,Arrhythmia,Oxygen therapy,Inpatient
+341,35,2,1/24/2024,Swelling in legs,Arrhythmia,Antibiotics,Outpatient
+341,16,3,1/27/2025,Palpitations,Myocardial Infarction,Antibiotics,Outpatient
+342,24,2,8/19/2024,Rapid heartbeat,Arrhythmia,Beta-blockers,Emergency
+343,37,2,11/23/2023,Fatigue,Hypertension,Diuretics,Emergency
+343,17,1,01-03-2024,Palpitations,Hypertension,Beta-blockers,Emergency
+344,42,2,5/13/2025,Palpitations,Lung Cancer,Diuretics,Outpatient
+345,40,1,4/22/2024,Rapid heartbeat,Heart Failure,Steroids,Outpatient
+346,12,1,08-05-2024,Wheezing,Bronchitis,ACE inhibitors,Inpatient
+347,28,1,10-12-2024,Rapid heartbeat,Hypertension,Calcium channel blockers,Emergency
+348,14,3,7/29/2023,Shortness of breath,Bronchitis,Antibiotics,Outpatient
+349,21,1,07-08-2023,Coughing,Pneumonia,Antibiotics,Outpatient
+350,49,3,2/16/2025,Coughing,Lung Cancer,Oxygen therapy,Outpatient
+351,43,3,01-12-2025,Wheezing,Arrhythmia,Diuretics,Emergency
+352,36,3,10-12-2023,Swelling in legs,Myocardial Infarction,Calcium channel blockers,Outpatient
+352,9,1,11-04-2023,Rapid heartbeat,Arrhythmia,Beta-blockers,Emergency
+353,33,3,10/22/2023,Palpitations,Myocardial Infarction,Calcium channel blockers,Outpatient
+353,6,2,11-06-2023,Palpitations,Heart Failure,Oxygen therapy,Inpatient
+354,48,2,3/16/2024,Palpitations,Heart Failure,Antibiotics,Inpatient
+354,44,3,02-03-2024,Shortness of breath,COPD,Calcium channel blockers,Inpatient
+355,26,1,7/31/2023,Wheezing,Myocardial Infarction,Inhaler,Inpatient
+356,14,2,3/31/2025,Bluish lips,Hypertension,Steroids,Inpatient
+356,1,3,10-04-2023,Coughing,COPD,Oxygen therapy,Inpatient
+357,40,3,3/22/2025,Wheezing,Myocardial Infarction,Calcium channel blockers,Outpatient
+358,1,1,09-06-2024,Shortness of breath,Myocardial Infarction,Steroids,Outpatient
+359,37,1,06-07-2025,Fatigue,Heart Failure,Antibiotics,Inpatient
+359,10,1,11/25/2024,Coughing,Hypertension,Diuretics,Inpatient
+360,8,2,12/27/2023,Swelling in legs,Hypertension,Inhaler,Outpatient
+360,41,2,2/14/2025,Fatigue,Hypertension,Statins,Emergency
+361,25,1,2/28/2024,Palpitations,Heart Failure,Statins,Inpatient
+362,23,2,12/27/2023,Chest pain,Bronchitis,Inhaler,Outpatient
+363,38,2,10-09-2024,Palpitations,Asthma,Beta-blockers,Emergency
+364,41,3,1/13/2024,Palpitations,Myocardial Infarction,Diuretics,Outpatient
+365,2,3,3/25/2025,Palpitations,COPD,Oxygen therapy,Inpatient
+365,36,3,03-04-2024,Palpitations,Bronchitis,Steroids,Emergency
+366,25,1,12/23/2024,Bluish lips,Arrhythmia,Beta-blockers,Emergency
+366,15,2,02-11-2024,Bluish lips,Heart Failure,Steroids,Inpatient
+367,18,2,12-11-2024,Palpitations,Pneumonia,ACE inhibitors,Emergency
+367,19,1,08-06-2023,Chest pain,Myocardial Infarction,Steroids,Emergency
+368,19,3,05-08-2025,Wheezing,Arrhythmia,Diuretics,Inpatient
+369,38,1,1/24/2024,Bluish lips,Pneumonia,Calcium channel blockers,Inpatient
+370,24,2,8/21/2024,Wheezing,Hypertension,Steroids,Emergency
+370,3,1,1/26/2025,Bluish lips,Heart Failure,Antibiotics,Emergency
+371,23,2,01-10-2025,Chest pain,Lung Cancer,ACE inhibitors,Outpatient
+371,19,1,8/22/2023,Bluish lips,Pneumonia,Statins,Outpatient
+372,2,2,9/28/2024,Rapid heartbeat,Asthma,Inhaler,Inpatient
+372,20,3,12-09-2023,Chest pain,Heart Failure,Steroids,Inpatient
+373,18,3,8/17/2023,Palpitations,Pneumonia,Calcium channel blockers,Emergency
+374,43,1,12-01-2023,Rapid heartbeat,Lung Cancer,Antibiotics,Emergency
+374,6,1,10-04-2023,Wheezing,Lung Cancer,Beta-blockers,Emergency
+375,1,1,05-08-2025,Wheezing,Hypertension,ACE inhibitors,Emergency
+376,8,3,7/25/2024,Chest pain,Pneumonia,ACE inhibitors,Emergency
+376,33,2,6/15/2024,Chest pain,Pneumonia,Beta-blockers,Emergency
+377,7,1,3/20/2024,Chest pain,Lung Cancer,Beta-blockers,Outpatient
+378,10,1,05-05-2024,Wheezing,Hypertension,Beta-blockers,Outpatient
+379,38,1,2/22/2024,Wheezing,Pneumonia,Diuretics,Inpatient
+379,33,3,09-11-2023,Coughing,Arrhythmia,Calcium channel blockers,Inpatient
+380,38,1,12/25/2024,Swelling in legs,Bronchitis,ACE inhibitors,Emergency
+380,34,3,12/19/2024,Shortness of breath,Lung Cancer,Steroids,Emergency
+381,11,3,1/18/2025,Palpitations,Bronchitis,Steroids,Emergency
+381,41,3,9/20/2023,Wheezing,Lung Cancer,ACE inhibitors,Emergency
+382,41,3,03-08-2024,Swelling in legs,Pneumonia,Statins,Inpatient
+382,16,3,02-10-2024,Shortness of breath,Arrhythmia,Oxygen therapy,Outpatient
+383,36,2,05-03-2024,Coughing,Lung Cancer,Steroids,Emergency
+383,11,1,10/19/2023,Wheezing,Bronchitis,Oxygen therapy,Outpatient
+384,27,3,2/18/2024,Shortness of breath,Bronchitis,Steroids,Emergency
+384,18,1,11-02-2024,Shortness of breath,Lung Cancer,Statins,Outpatient
+385,39,3,7/23/2023,Rapid heartbeat,Myocardial Infarction,Antibiotics,Inpatient
+385,44,1,9/23/2024,Bluish lips,Bronchitis,Oxygen therapy,Emergency
+386,7,3,12/14/2024,Wheezing,Myocardial Infarction,Diuretics,Emergency
+386,36,2,7/30/2024,Palpitations,Lung Cancer,Diuretics,Outpatient
+387,44,2,09-06-2024,Palpitations,Myocardial Infarction,Beta-blockers,Inpatient
+388,24,1,3/16/2025,Wheezing,Arrhythmia,Statins,Outpatient
+388,29,1,07-05-2023,Rapid heartbeat,Lung Cancer,Antibiotics,Inpatient
+389,50,1,12/31/2023,Chest pain,Heart Failure,Oxygen therapy,Inpatient
+390,10,2,01-12-2024,Fatigue,Lung Cancer,Steroids,Outpatient
+391,2,1,11/15/2023,Coughing,Bronchitis,Oxygen therapy,Emergency
+391,16,2,4/23/2024,Palpitations,Heart Failure,Diuretics,Inpatient
+392,18,3,09-02-2023,Palpitations,Heart Failure,Beta-blockers,Emergency
+393,36,2,6/14/2024,Bluish lips,Lung Cancer,Beta-blockers,Outpatient
+393,40,1,03-08-2025,Shortness of breath,Bronchitis,ACE inhibitors,Inpatient
+394,10,1,04-01-2025,Swelling in legs,Hypertension,Oxygen therapy,Inpatient
+395,16,1,8/22/2024,Bluish lips,Heart Failure,Calcium channel blockers,Outpatient
+395,30,3,4/13/2024,Shortness of breath,Arrhythmia,Inhaler,Outpatient
+396,36,2,04-10-2024,Swelling in legs,Hypertension,Diuretics,Inpatient
+397,9,2,10-04-2023,Shortness of breath,Hypertension,Steroids,Inpatient
+398,8,2,9/19/2024,Shortness of breath,Myocardial Infarction,Oxygen therapy,Emergency
+398,10,1,3/28/2025,Rapid heartbeat,Myocardial Infarction,Inhaler,Outpatient
+399,44,3,04-02-2024,Palpitations,Myocardial Infarction,Antibiotics,Outpatient
+400,24,2,08-08-2024,Bluish lips,Asthma,Beta-blockers,Outpatient
+400,18,1,1/15/2024,Shortness of breath,Arrhythmia,Oxygen therapy,Inpatient
+401,40,1,4/16/2024,Coughing,Myocardial Infarction,Antibiotics,Inpatient
+401,27,1,3/17/2024,Fatigue,Pneumonia,Statins,Outpatient
+402,19,1,11/20/2023,Coughing,Lung Cancer,ACE inhibitors,Outpatient
+403,20,3,1/15/2025,Coughing,Pneumonia,Antibiotics,Emergency
+404,16,2,6/25/2025,Chest pain,Bronchitis,Oxygen therapy,Emergency
+405,36,2,04-04-2025,Chest pain,Heart Failure,Calcium channel blockers,Outpatient
+405,21,3,11/14/2023,Bluish lips,COPD,Statins,Outpatient
+406,8,3,1/30/2024,Wheezing,Myocardial Infarction,Antibiotics,Emergency
+407,41,1,1/18/2025,Wheezing,Pneumonia,Inhaler,Outpatient
+407,2,1,04-04-2025,Rapid heartbeat,Pneumonia,Calcium channel blockers,Outpatient
+408,31,2,7/27/2023,Rapid heartbeat,Asthma,Beta-blockers,Outpatient
+408,31,3,12/28/2024,Fatigue,Arrhythmia,Calcium channel blockers,Emergency
+409,17,1,10/25/2023,Swelling in legs,Myocardial Infarction,Steroids,Inpatient
+409,2,2,7/25/2023,Wheezing,Lung Cancer,ACE inhibitors,Inpatient
+410,33,1,03-10-2025,Chest pain,Hypertension,Diuretics,Outpatient
+410,30,1,04-06-2024,Fatigue,Hypertension,ACE inhibitors,Inpatient
+411,23,1,8/31/2024,Bluish lips,Bronchitis,Statins,Emergency
+412,32,2,11/18/2024,Fatigue,COPD,ACE inhibitors,Emergency
+412,29,1,12-06-2023,Palpitations,Asthma,Statins,Emergency
+413,30,3,11/13/2023,Bluish lips,Pneumonia,Antibiotics,Emergency
+414,42,2,07-05-2024,Coughing,Heart Failure,Statins,Emergency
+415,1,1,12/22/2023,Palpitations,Heart Failure,Calcium channel blockers,Outpatient
+416,46,3,05-10-2024,Wheezing,COPD,Statins,Emergency
+416,17,1,10-06-2023,Bluish lips,Hypertension,Calcium channel blockers,Emergency
+417,21,2,7/24/2024,Chest pain,Asthma,Steroids,Emergency
+417,49,2,7/14/2023,Rapid heartbeat,Arrhythmia,Steroids,Outpatient
+418,9,2,7/20/2023,Fatigue,Pneumonia,Statins,Emergency
+419,23,3,04-02-2025,Shortness of breath,Arrhythmia,Diuretics,Emergency
+419,44,2,10/18/2023,Coughing,Heart Failure,Inhaler,Inpatient
+420,22,3,05-06-2024,Wheezing,Bronchitis,Oxygen therapy,Emergency
+421,16,2,07-01-2023,Coughing,Hypertension,Calcium channel blockers,Emergency
+421,10,3,5/29/2024,Shortness of breath,Bronchitis,Steroids,Outpatient
+422,11,1,07-08-2023,Fatigue,COPD,Beta-blockers,Inpatient
+422,48,1,3/29/2024,Coughing,Pneumonia,Oxygen therapy,Outpatient
+423,2,2,04-01-2024,Palpitations,Lung Cancer,Oxygen therapy,Outpatient
+423,38,1,10-12-2023,Fatigue,Pneumonia,Calcium channel blockers,Inpatient
+424,40,1,10-03-2023,Palpitations,Lung Cancer,Antibiotics,Outpatient
+425,13,3,6/26/2023,Coughing,Pneumonia,Diuretics,Emergency
+425,43,3,5/27/2024,Swelling in legs,Myocardial Infarction,Antibiotics,Inpatient
+426,5,2,11/25/2023,Rapid heartbeat,Asthma,Inhaler,Emergency
+426,47,3,3/19/2024,Palpitations,Myocardial Infarction,Diuretics,Emergency
+427,22,1,9/16/2024,Shortness of breath,Arrhythmia,Inhaler,Emergency
+427,9,2,11/27/2023,Swelling in legs,Lung Cancer,Calcium channel blockers,Emergency
+428,12,2,2/29/2024,Chest pain,Myocardial Infarction,Diuretics,Emergency
+428,28,3,3/15/2025,Rapid heartbeat,COPD,Diuretics,Inpatient
+429,3,1,1/24/2024,Shortness of breath,Hypertension,Oxygen therapy,Emergency
+429,49,2,02-09-2024,Coughing,Pneumonia,Calcium channel blockers,Emergency
+430,49,3,01-07-2025,Rapid heartbeat,Hypertension,Statins,Outpatient
+431,4,2,4/22/2025,Wheezing,Heart Failure,Beta-blockers,Emergency
+432,46,2,11/30/2023,Palpitations,Pneumonia,Diuretics,Outpatient
+433,42,2,11/13/2023,Fatigue,COPD,Statins,Inpatient
+434,23,3,05-10-2025,Bluish lips,COPD,Calcium channel blockers,Outpatient
+435,5,1,11/29/2024,Bluish lips,Heart Failure,ACE inhibitors,Inpatient
+435,15,1,5/23/2024,Palpitations,Heart Failure,Antibiotics,Outpatient
+436,13,1,02-08-2025,Swelling in legs,Myocardial Infarction,Beta-blockers,Emergency
+437,24,1,12/14/2024,Bluish lips,Pneumonia,Calcium channel blockers,Emergency
+437,12,3,11/18/2023,Bluish lips,Myocardial Infarction,Steroids,Emergency
+438,35,3,6/18/2025,Wheezing,Asthma,Statins,Inpatient
+439,11,2,04-05-2024,Palpitations,Hypertension,Diuretics,Outpatient
+439,35,2,9/14/2023,Coughing,Heart Failure,Calcium channel blockers,Emergency
+440,10,2,2/20/2025,Chest pain,Hypertension,Oxygen therapy,Emergency
+441,21,1,02-05-2025,Bluish lips,COPD,Steroids,Emergency
+442,20,2,10/29/2024,Coughing,Asthma,Steroids,Emergency
+442,4,1,6/13/2025,Coughing,Lung Cancer,Antibiotics,Emergency
+443,40,1,01-12-2025,Rapid heartbeat,Bronchitis,Statins,Inpatient
+443,46,2,06-01-2025,Rapid heartbeat,Heart Failure,Inhaler,Emergency
+444,32,1,3/16/2024,Coughing,Heart Failure,Diuretics,Outpatient
+445,34,1,5/14/2025,Wheezing,Asthma,Diuretics,Emergency
+445,32,3,5/17/2024,Rapid heartbeat,Lung Cancer,Diuretics,Emergency
+446,17,3,11-12-2023,Fatigue,Arrhythmia,Oxygen therapy,Outpatient
+447,35,3,08-10-2024,Palpitations,Myocardial Infarction,ACE inhibitors,Inpatient
+447,1,1,02-12-2025,Swelling in legs,Bronchitis,Beta-blockers,Inpatient
+448,39,1,3/19/2025,Palpitations,Asthma,Beta-blockers,Outpatient
+449,38,3,10/27/2024,Shortness of breath,Pneumonia,ACE inhibitors,Outpatient
+449,47,1,1/20/2024,Chest pain,Lung Cancer,Statins,Emergency
+450,38,1,8/16/2023,Rapid heartbeat,Bronchitis,Inhaler,Emergency
+450,28,1,3/27/2025,Palpitations,Myocardial Infarction,Steroids,Inpatient
+451,22,1,5/29/2024,Rapid heartbeat,Myocardial Infarction,Statins,Emergency
+451,23,1,3/31/2025,Chest pain,Arrhythmia,Inhaler,Inpatient
+452,40,2,04-07-2025,Swelling in legs,Arrhythmia,Statins,Inpatient
+452,32,1,03-03-2025,Wheezing,Lung Cancer,Diuretics,Emergency
+453,10,1,03-09-2024,Chest pain,Lung Cancer,ACE inhibitors,Outpatient
+454,40,1,12/27/2023,Fatigue,Asthma,Statins,Inpatient
+454,49,1,9/16/2023,Fatigue,Pneumonia,ACE inhibitors,Outpatient
+455,28,1,07-06-2023,Fatigue,Asthma,Antibiotics,Emergency
+456,19,1,06-11-2025,Bluish lips,Pneumonia,Calcium channel blockers,Emergency
+457,20,2,4/25/2025,Coughing,COPD,ACE inhibitors,Emergency
+458,22,3,2/29/2024,Swelling in legs,Heart Failure,Statins,Emergency
+459,24,3,4/20/2024,Wheezing,Lung Cancer,ACE inhibitors,Inpatient
+459,5,2,09-04-2023,Bluish lips,Heart Failure,Oxygen therapy,Emergency
+460,29,2,6/27/2023,Coughing,Bronchitis,Inhaler,Emergency
+461,10,2,8/16/2023,Swelling in legs,Pneumonia,Calcium channel blockers,Emergency
+462,10,1,11/21/2023,Wheezing,Hypertension,Steroids,Outpatient
+463,44,3,03-02-2024,Fatigue,Asthma,ACE inhibitors,Outpatient
+464,45,1,10-06-2024,Swelling in legs,Pneumonia,Steroids,Outpatient
+464,11,3,1/30/2025,Coughing,Myocardial Infarction,ACE inhibitors,Outpatient
+465,35,1,11/27/2023,Wheezing,Heart Failure,Inhaler,Emergency
+465,26,3,2/18/2025,Coughing,Asthma,Diuretics,Outpatient
+466,26,2,01-04-2025,Rapid heartbeat,Pneumonia,Diuretics,Inpatient
+466,20,2,10/31/2024,Shortness of breath,Hypertension,Statins,Emergency
+467,10,2,4/21/2024,Swelling in legs,Heart Failure,Antibiotics,Outpatient
+467,7,2,7/21/2023,Rapid heartbeat,Arrhythmia,Diuretics,Outpatient
+468,15,1,07-05-2023,Chest pain,Asthma,Inhaler,Outpatient
+469,49,3,7/19/2023,Bluish lips,COPD,Inhaler,Outpatient
+469,32,1,5/31/2025,Rapid heartbeat,COPD,Diuretics,Emergency
+470,42,2,6/30/2024,Chest pain,Pneumonia,Statins,Emergency
+470,8,1,03-08-2024,Rapid heartbeat,Asthma,Antibiotics,Emergency
+471,4,3,02-05-2025,Palpitations,Myocardial Infarction,Statins,Outpatient
+471,32,2,05-10-2024,Fatigue,Asthma,Steroids,Outpatient
+472,44,1,02-03-2025,Palpitations,Arrhythmia,Statins,Outpatient
+473,22,1,01-06-2025,Coughing,COPD,ACE inhibitors,Inpatient
+474,16,3,07-04-2024,Wheezing,Heart Failure,Beta-blockers,Outpatient
+474,26,1,04-01-2024,Palpitations,Lung Cancer,Oxygen therapy,Outpatient
+475,3,1,08-06-2024,Coughing,Myocardial Infarction,Antibiotics,Outpatient
+475,45,2,04-08-2025,Shortness of breath,Hypertension,Statins,Inpatient
+476,46,1,04-07-2024,Shortness of breath,Pneumonia,Beta-blockers,Outpatient
+477,3,3,04-01-2025,Shortness of breath,Arrhythmia,Diuretics,Outpatient
+477,23,3,9/14/2024,Wheezing,Arrhythmia,Steroids,Emergency
+478,22,3,11/19/2024,Fatigue,Pneumonia,Steroids,Emergency
+478,6,3,03-06-2025,Fatigue,Hypertension,Beta-blockers,Emergency
+479,41,1,6/27/2023,Rapid heartbeat,Lung Cancer,Diuretics,Outpatient
+479,12,2,6/13/2024,Shortness of breath,COPD,Inhaler,Inpatient
+480,9,2,8/28/2023,Rapid heartbeat,Lung Cancer,Antibiotics,Emergency
+480,33,3,2/20/2024,Fatigue,Pneumonia,Diuretics,Emergency
+481,22,1,08-09-2024,Shortness of breath,Lung Cancer,Antibiotics,Emergency
+482,9,2,10/19/2024,Swelling in legs,COPD,Oxygen therapy,Outpatient
+483,46,2,06-12-2024,Fatigue,Bronchitis,Inhaler,Inpatient
+484,28,2,7/14/2024,Chest pain,Heart Failure,Steroids,Emergency
+485,22,1,1/15/2025,Fatigue,Heart Failure,Inhaler,Inpatient
+486,13,3,8/18/2023,Palpitations,Myocardial Infarction,Diuretics,Emergency
+486,17,2,11/16/2024,Rapid heartbeat,Hypertension,Steroids,Inpatient
+487,40,1,10/26/2023,Fatigue,Arrhythmia,Oxygen therapy,Inpatient
+487,38,1,04-05-2025,Rapid heartbeat,Arrhythmia,Antibiotics,Inpatient
+488,6,2,3/30/2025,Coughing,Bronchitis,Antibiotics,Inpatient
+488,32,1,07-02-2023,Shortness of breath,Hypertension,Statins,Inpatient
+489,38,3,04-07-2024,Coughing,COPD,Inhaler,Inpatient
+490,26,1,1/17/2025,Fatigue,Asthma,Oxygen therapy,Inpatient
+490,42,3,06-06-2025,Shortness of breath,Lung Cancer,Diuretics,Inpatient
+491,24,1,5/19/2024,Palpitations,Heart Failure,Inhaler,Emergency
+492,8,1,9/18/2024,Wheezing,Myocardial Infarction,Inhaler,Inpatient
+493,24,1,11/13/2024,Chest pain,Heart Failure,Oxygen therapy,Emergency
+494,40,3,04-10-2024,Swelling in legs,Arrhythmia,Steroids,Inpatient
+495,23,1,05-08-2024,Palpitations,Asthma,Inhaler,Inpatient
+495,33,1,11/16/2024,Bluish lips,Pneumonia,Antibiotics,Outpatient
+496,28,2,07-02-2023,Palpitations,Pneumonia,Calcium channel blockers,Inpatient
+497,7,3,11-11-2023,Palpitations,COPD,Statins,Outpatient
+497,47,1,4/17/2024,Shortness of breath,Lung Cancer,Statins,Emergency
+498,16,3,08-11-2024,Rapid heartbeat,Arrhythmia,Diuretics,Inpatient
+498,45,3,1/17/2024,Chest pain,Lung Cancer,Diuretics,Emergency
+499,15,3,11-07-2023,Shortness of breath,Arrhythmia,Steroids,Emergency
+500,1,1,12/19/2024,Swelling in legs,COPD,Inhaler,Emergency
+500,40,3,3/17/2025,Chest pain,Arrhythmia,Steroids,Outpatient
